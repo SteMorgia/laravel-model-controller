@@ -8,7 +8,7 @@
     <ul>
         @foreach ($movies as $movie)
             <li>
-                {{$book->id}} - {{$book->title}} - {{$book->original_title}} - {{$book->nationality}} - {{$book->date}} - {{$book->vote}}
+                {{$movie->id}} - {{$movie->title}} - {{$movie->original_title}} - {{$movie->nationality}} - {{$movie->date}} - {{$movie->vote}}
             </li>
         @endforeach
     </ul>
